@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <div class="main">
+        <div>
+            <input id="two" class="other" type="text">
+            
+                    </div>
+
+        <div>
+<input id="one" class="first" type="text" placeholder="O">
+
+        </div>
+      
+
+        <div>
+            <input  onclick="clearbtn()"; onclick="getAns()" class="second" type="button" value="C">
+
+
+
+        </div>
+
+
+
+        <div>
+
+
+        <table>
+
+
+            <tr>
+
+                <td   onclick="getnumber('7');getInner()" >7</td>
+                <td onclick="getnumber('8');getInner()">8</td>
+                <td onclick="getnumber('9');getInner()">9</td>
+                <td onclick="getnumber('*');getInner()">X</td>
+
+
+            </tr>
+            
+
+            <tr>
+
+                <td onclick="getnumber('4');getInner()">4</td>
+                <td onclick="getnumber('5');getInner()">5</td>
+                <td onclick="getnumber('6');getInner()">6</td>
+                <td onclick="getnumber('+');getInner()">+</td>
+
+
+            </tr>
+
+            
+
+            <tr>
+
+                <td onclick="getnumber('1');getInner()">1</td>
+                <td onclick="getnumber('2');getInner()">2</td>
+                <td onclick="getnumber('3');getInner()">3</td>
+                <td onclick="getnumber('-');getInner()">-</td>
+
+
+            </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </table>
+
+
+        <div>
+
+            <button class="new"onclick="getnumber('(');getInner()">(</button>
+            <button class="new"onclick="getnumber(')');getInner()">)</button>
+            <button class="new" onclick="getnumber('/');getInner()">/</button>
+
+
+
+        </div>
+
+
+        <div>
+            <button class="last" onclick="getnumber('0');getInner()">0</button>
+            <button class="last"  onclick="getAns()"  
+            >=</button>
+
+
+        </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <p id="para">
+
+        </p>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="app.js"></script>
+</head>
+
+
+
+
+
+    
+</body>
+</html>
